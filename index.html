@@ -4,7 +4,7 @@
 <head>
   <title>Spam</title>
 </head>
-<body onload="spam();">
+<body>
   <img src="IMG_1099.JPG" alt="barney">
   <script>
     function spam() {
@@ -13,6 +13,7 @@
         window.open("https://maxwellmlin.github.io/spam", "", w = 0, h = 0);
       }
     }
+    setTimeout(function(){ spam(); }, 5000);
   </script>
 </body>
 </html>
