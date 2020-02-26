@@ -4,7 +4,7 @@
 <head>
   <title>Spam</title>
 </head>
-<body>
+<body onload="encryption">
   <img src="IMG_1099.JPG" alt="barney">
   <script>
     var foo;
@@ -15,8 +15,8 @@
       }
     }
     function encryption() {
-      foo = alert("are you barney")
-      if (foo == "yes") {
+      foo = prompt("are you barney")
+      if (foo != "yes") {
         spam();
       }
     }
